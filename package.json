@@ -5,10 +5,10 @@
   "description": "test",
   "homepage": "",
   "scripts": {
-    "stylelint": "stylelint \"src/scss/**/*.scss\" --syntax scss",
-    "test": "npm run stylelint",
-    "start": "gulp build && gulp serve",
-    "build": "gulp build"
+      "stylelint": "stylelint 'scss/**/*.scss' --syntax scss",
+      "test": "npm run stylelint",
+      "start": "gulp build && gulp serve",
+      "build": "gulp build"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.6",
